@@ -1,0 +1,6 @@
+(library
+ (name test_scheme)
+ (inline_tests)
+ (libraries base stdio test_utils)
+ (preprocess
+  (pps ppx_jane)))
